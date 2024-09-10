@@ -1,0 +1,1169 @@
+    <!DOCTYPE html>
+    <html lang="en" >
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(98293013, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/98293013" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->        
+        <meta name="Author" content="VideoLAN" />
+        <meta name="Keywords" content=
+        "VideoLAN, VLC, VLC player, VLC media player, download, media player, player download, codec, encoder, media converter, video, video player,
+        multimedia, multicast, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Android, Streaming,
+        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, MKV, m2ts, open source, free software, floss, free" />
+
+        <meta name="Description" content="Goodies" />
+        <meta name="apple-itunes-app" content="app-id=650377962"/>
+        <title>Goodies - VideoLAN</title>
+
+        
+                <link rel="shortcut icon" type="image/x-icon" href="http://images.videolan.org/images/favicon.ico" />
+
+                <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="http://images.videolan.org/videolan-news.rss" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
+
+        <!-- goodies -->
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/bootstrap.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/style.min.css" />
+
+                <link rel="dns-prefetch" href="http://get.videolan.org/" />
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 7]>
+            * {
+                behavior: url("/style/box-sizing.htc");
+            }
+        <![endif]-->
+        <!--[if lt IE 7]>
+           <style type="text/css">
+              @media screen{ body{behavior:url("/width.htc");} }
+                /* PNG support for IE */
+                img {  behavior: url("/png.htc");}
+                .DXImageTransformed { display: inline-block; }
+              </style>
+        <![endif]-->
+
+
+                        <script src="http://images.videolan.org/js/jquery.min.js" type='text/javascript'></script>
+        <script async="async" src="http://images.videolan.org/js/bootstrap.min.js" type="text/javascript"></script>
+        
+                <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38853043-1"></script>
+            <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-38853043-1', { 'anonymize_ip': true })
+
+            function isTouchDevice() {
+                return 'ontouchstart' in window || navigator.maxTouchPoints;
+            };
+
+            $(document).ready(function() {
+                //Early return if touch device
+                if (isTouchDevice()) {
+                    return;
+                }
+                //Open dropdown menu on hover if not touch device & navbar-toggle not visible
+                $('#nav ul.nav li.dropdown').hover(function() {
+                    if (!$('.navbar-toggle').is(':visible') && !$(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                }, function() {
+                    if (!$('.navbar-toggle').is(':visible') && $(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                });
+            });
+
+        </script>
+    </head>
+<body class='new-design'><div id='bodyInner' class='orange'>    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+        <img src='http://images.videolan.org/images/logoOrange.png' alt='VideoLAN association' />
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="main-navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown ">
+          <a href="videolan.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="videolan.2">Team &amp; Organization</a></li>
+            <li><a href="vlc/partners.html">Consulting Services &amp; Partners</a></li>
+            <li><a href="videolan/events.2">Events</a></li>
+            <li><a href="legal.html">Legal</a></li>
+            <li><a href="press/index.html">Press center</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="vlc/download-linux.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vlc/download-linux.html">Download</a></li>
+            <li><a href="vlc/todo.html">Features</a></li>
+            <li><a href="vlc/skins.html">Customize</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="goodies.html">Get Goodies</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="projects.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="projects/dvblast.html">DVBlast</a></li>
+            <li><a href="developers/x264.html">x264</a></li>
+            <li><a href="developers/x262.html">x262</a></li>
+            <li><a href="developers/x265.html">x265</a></li>
+            <li><a href="projects/multicat.html">multicat</a></li>
+            <li><a href="projects/dav1d.html">dav1d</a></li>
+            <li><a href="vlc/skineditor.html">VLC Skin Editor</a></li>
+            <li><a href="vlc/download-linux.html">VLC media player</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="vlc/libvlc.html">libVLC</a></li>
+            <li><a href="libdvdcss/index.html">libdvdcss</a></li>
+            <li><a href="developers/libdvdnav.html">libdvdnav</a></li>
+            <li><a href="developers/libdvdnav.html">libdvdread</a></li>
+            <li><a href="developers/libbluray.html">libbluray</a></li>
+            <li><a href="developers/libdvbpsi.html">libdvbpsi</a></li>
+            <li><a href="developers/libaacs.html">libaacs</a></li>
+            <li><a href="developers/libdvbcsa.html">libdvbcsa</a></li>
+            <li><a href="developers/bitstream.html">biTStream</a></li>
+            <li><a href="developers/unity.html">vlc-unity</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="projects.2">All Projects</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="contribute.html">Getting started</a></li>
+            <li><a href="contribute.html#money">Donate</a></li>
+            <li><a href="support.2#bugs">Report a bug</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="support.2">Support</a>
+        </li>
+      </ul>
+               <ul class="nav navbar-nav pull-right donate-box">
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="dropdown visible-sm donate2">
+                <a href="contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Donate <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu donate-dropdown pull-right">
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+                    </div>
+ </div>
+</nav>
+
+<!-- header -->
+
+    <div class="header container">
+        <div id="nonprofitOrganizationDiv2" class="center-block">
+                VideoLAN, a project and a <a href="videolan.2" class="noUnderline">non-profit organization.</a>         </div>
+            </div>
+
+<div class="container">
+
+<h1 class="bigtitle" style='margin-bottom: 25px;'>VideoLAN Goodies</h1>
+<p>You are now a true VideoLAN fan? Help yourself in this page!</p>
+
+<div class="row">
+    <div class="col-md-6" style="padding-top: 1em">
+        <h2 class='audienceCallout'>For your computer</h2>
+        <ul class="media-list">
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#videos">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#videos" class='noUnderline'>
+                        <h3 class='productName'>Videos</h3>
+                        <p class='productDescription'>VLC promotion movies authored by community</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#cones">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#cones" class='noUnderline'>
+                        <h3 class='productName'>Cones</h3>
+                        <p class='productDescription'>The well known VideoLAN Cone, redesigned by community</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#wallpaper">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#wallpaper" class='noUnderline'>
+                        <h3 class='productName'>Wallpapers</h3>
+                        <p class='productDescription'>Background images featuring VLC Media Player</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#boot">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#boot" class='noUnderline'>
+                        <h3 class='productName'>Boot Screens</h3>
+                        <p class='productDescription'>VLC Media Player from instant zero</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#banners">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#banners" class='noUnderline'>
+                        <h3 class='productName'>Banners</h3>
+                        <p class='productDescription'>Promote your favorite project through your website</p>
+                    </a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="col-md-6" style="padding-top: 1em">
+        <h2 class='audienceCallout'>For yourself</h2>
+        <ul class="media-list">
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#clothing">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#clothing" class='noUnderline'>
+                        <h3 class='productName'>Clothing</h3>
+                        <p class='productDescription'>Wear the famous cone</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#food">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#food" class='noUnderline'>
+                        <h3 class='productName'>Food</h3>
+                        <p class='productDescription'>Eat the Cone! Featuring VLC Chocolate</p>
+                    </a>
+                </div>
+            </li>
+
+            <li class="media">
+                <div class="media-left">
+                    <a href="goodies.html#stationery">
+                        <img class="media-object" src="http://images.videolan.org/images/VLC-IconSmall.png" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="goodies.html#stationery" class='noUnderline'>
+                        <h3 class='productName'>Stationery</h3>
+                        <p class='productDescription'>VLC stickers</p>
+                    </a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<hr />
+
+<section>
+    <h2 id="videos">Videos</h2>
+    <p>Videos about VLC</p>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+
+        <div class="thumbnail">
+          <img src="http://images.videolan.org/images/goodies/vlc-player-promo.png" alt="Adam Vian's movie">
+          <div class="caption">
+            <h3>Adam Vian's movie</h3>
+            <p>A VLC promotion movie made by Adam Vian</p>
+            <p>
+                <a href="http://images.videolan.org/images/vlc-player.mp4" class="btn btn-default" role="button">Download</a>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+</section>
+
+<hr />
+
+<section>
+    <h2 id="cones">Cones</h2>
+
+    <p>You may freely use these VideoLAN logos using the following
+    copyright:</p>
+
+    <pre>Copyright (c) 1996-2010 VideoLAN. This logo or a modified version
+may be used or modified by anyone to refer to the VideoLAN project
+or any product developed by the VideoLAN team, but does not indicate
+endorsement by the project.</pre>
+
+    <p>There have been many many versions of the VideoLAN cone: </p>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-26xPG.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_26xPG.png" alt="VLC Cone with snow and branches as arms">
+                </a>
+                <div class="caption">
+                    <p>Cone made by <a href="http://twitter.com/nirzardp">Nirzar</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/snowman.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_snowman.png" alt="Snowman with Cone nose">
+                </a>
+                <div class="caption">
+                    <p>Snowman made by <a href="http://mscns.com/">Cory Simmons</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-i2Es.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_i2Es.png" alt="Cone with garland around the base">
+                </a>
+                <div class="caption">
+                    <p>Cone made by <a href="https://design-fu.com">Mr. Lee</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-buB2.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_buB2.png" alt="Cone with floral christmas arrangement">
+                </a>
+                <div class="caption">
+                    <p>Cone made by Joel Shaw</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-eT5x.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_eT5x.png" alt="Cone with Santa Clause hat and snow on it">
+                </a>
+                <div class="caption">
+                    <p>Cone made by Gautham aka Gapo</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-raGi.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_raGi.png" alt="Cone with Santa Clause hat">
+                </a>
+                <div class="caption">
+                    <p>Cone made by <a href="http://www.topdraw.com/">Nick Pierno</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-RNF1.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_RNF1.png" alt="Cone with ribbon">
+                </a>
+                <div class="caption">
+                    <p>Cone made by <a href="http://www.topdraw.com/">Nick Pierno</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-gA4v.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_gA4v.png" alt="Red colored cone decorated like a Christmas tree">
+                </a>
+                <div class="caption">
+                    <p>Cone made by SavTheCoder</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-FQCw.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_FQCw.png" alt="Cone with Snow and Christmas light around it">
+                </a>
+                <div class="caption">
+                    <p>Cone made by digoncreative</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-8oPi.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_8oPi.png" alt="Dark orange cone with ribbon">
+                </a>
+                <div class="caption">
+                    <p>Cone made by TheBDutchman</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-f9my.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_f9my.png" alt="Upside-down cone fille with rainbow cotton candy">
+                </a>
+                <div class="caption">
+                    <p>Joke Cone made by <a href="http://www.reddit.com/user/mishnak">mishnak</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-soppera10-large.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_soppera_10.png" alt="Orange cone with shadow below it">
+                </a>
+                <div class="caption">
+                    <p>Cone made by Stephane Soppera (with Blender)</p>
+                    <p>Download: <a href="http://images.videolan.org/images/goodies/cone10-soppera.blend">Blender</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_original.png" alt="VideoLAN's first cone">
+                </a>
+                <div class="caption">
+                    <p>The first version of the logo made by Sam Hocevar (with The Gimp)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-osx.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_osx.png" alt="Another version of the first VideoLAN cone">
+                </a>
+                <div class="caption">
+                    <p>Another version, by Benjamin Mironer (used for OS X)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/CNoyel128.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_noyel.png" alt="Dark orange cone with christmas hat and shadow below it">
+                </a>
+                <div class="caption">
+                    <p>A christmas cone made by Geoffrey Roussel</p>
+                    <p>Download: <a href="http://images.videolan.org/images/goodies/vlcNoyel.blend">Blender</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_altglass_1.png" alt="Cone with angular base with pointed nooks">
+                </a>
+                <div class="caption">
+                    <p>A 3D cone made by Daniel Dreibrodt</p>
+                    <p>Download:
+                    <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.ico">ICO</a>
+                    /
+                    <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.blend">Blender</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_altglass_2.png" alt="Cone with base that has rounded corners">
+                </a>
+                <div class="caption">
+                    <p>Another 3D cone made by Daniel Dreibrodt</p>
+                    <p>Download:
+                    <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.ico">ICO</a>
+                    /
+                    <a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.blend">Blender</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/nightly_notext.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_nightly.png" alt="Blue cone">
+                </a>
+                <div class="caption">
+                    <p>Nightly builds cone, by Daniel Dreibrodt</p>
+                    <p>Download: <a href="http://d-gfx.kognetwork.ch/VLC/nightly_notext.ico">ICO</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone_blue_strip_orangeround.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_blue_strip_orange.png" alt="Orange cone with blue strip around it on a orange round background">
+                </a>
+                <div class="caption">
+                    <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone_blue_strip.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_blue_strip.png" alt="Orange cone with blue strip around it">
+                </a>
+                <div class="caption">
+                    <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <div class="thumbnail" style="height: 300px;">
+                <a href="http://images.videolan.org/images/goodies/cone-icon-transparent.png">
+                    <img src="http://images.videolan.org/images/goodies/thumbnails/cone_icon_transparent.png" alt="Orange cone with film around it">
+                </a>
+                <div class="caption">
+                    <p>Transparent cone by Yvo Schaap</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3>High-Quality Cone icons by Tom Bigelajzen</h3>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png" class="thumbnail">
+              <img src="http://images.videolan.org/images/goodies/thumbnails/cone_shortcuts.png" alt="Shortcuts Cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png" class="thumbnail">
+              <img src="http://images.videolan.org/images/goodies/thumbnails/cone_subs.png" alt="Subtitles cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/thumbnails/cone_forum.png" alt="Forum cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Video-large.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/thumbnails/cone_video.png" alt="Video cone">
+            </a>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png" class="thumbnail">
+              <img src="http://images.videolan.org/images/goodies/thumbnails/cone_audio.png" alt="Audio Cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Input-large.png" class="thumbnail">
+              <img src="http://images.videolan.org/images/goodies/thumbnails/cone_input.png" alt="Input cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/thumbnails/cone_interface.png" alt="Interface cone">
+            </a>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+            <a href="http://images.videolan.org/images/goodies/Cone-List-large.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/thumbnails/cone_list.png" alt="List cone">
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<hr />
+
+<section>
+    <h2 id="misc">Misc Images</h2>
+    <h3>PlaysItAll</h3>
+    <p>made by <a href="https://www.xtremestuff.net/">Asim Siddiqui</a></p>
+    <div class="row">
+
+        <div class="col-xs-12 col-md-6">
+            <a href="http://images.videolan.org/images/goodies/vlc_playsitall.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/vlc_playsitall.png" alt="VLC - Plays it all">
+            </a>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+            <a href="http://images.videolan.org/images/goodies/vlc_playsitall.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/vlc_playsitall.png" alt="VLC - Plays it all">
+            </a>
+        </div>
+
+    </div>
+
+    <h3>Media Icons</h3>
+    <p>Media icons with blue strip cone made by <a href="https://www.xtremestuff.net/">Asim Siddiqui</a></p>
+
+    <div class="row">
+
+        <div class="col-xs-4 col-md-4">
+            <a href="http://images.videolan.org/images/goodies/cone_blue_strip-video64.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/cone_blue_strip-video64.png" alt="">
+            </a>
+        </div>
+
+        <div class="col-xs-4 col-md-4">
+            <a href="http://images.videolan.org/images/goodies/cone_blue_strip-audio64.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/cone_blue_strip-audio64.png" alt="">
+            </a>
+        </div>
+
+        <div class="col-xs-4 col-md-4">
+            <a href="http://images.videolan.org/images/goodies/cone_blue_strip-dvd64.png" class="thumbnail">
+                <img src="http://images.videolan.org/images/goodies/cone_blue_strip-dvd64.png" alt="">
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<hr />
+
+<section>
+    <h2 id="wallpaper">Wallpapers</h2>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_jason.png" alt="Jason Jaeger">
+                <div class="caption">
+                    <p>by Jason Jaeger</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/v3-wallpaper_1280x1024.jpg">1280×1024</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/v3-wallpaper_1024x768.jpg">1024×768</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/v3-wallpaper_800x600.jpg">800×600</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_hpep.png" alt="hpep">
+                <div class="caption">
+                    <p>by HPep</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/vlc-hpep-1024x768.jpg">1024×768</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_day_of_cones.png" alt="hpep">
+                <div class="caption">
+                    <p>by Tom Bigelajzen</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/day-of-the-cones-ex2.jpg">1498×1001</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_karibu_1.png" alt="Jason Jaeger">
+                <div class="caption">
+                    <p>by Emmanuel Puig (alias Karibu)</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl1_1600x1200.jpg">1600×1200</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl1_1024x768.jpg">1024×768</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_karibu_2.png" alt="hpep">
+                <div class="caption">
+                    <p>by Emmanuel Puig (alias Karibu)</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl2_1600x1131.jpg">1600×1131</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl2_1024x724.jpg">1024×724</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_karibu_3.png" alt="hpep">
+                <div class="caption">
+                    <p>by Emmanuel Puig (alias Karibu)</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl3_1600x1200.jpg">1600×1200</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl3_1024x768.jpg">1024×768</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_garf.png" alt="">
+                <div class="caption">
+                    <p>by Simon Latapie (alias Garf)</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl4_2872x2154.jpg">2872×2154</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl4_1600x1200.jpg">1600×1200</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan/vl4_1024x768.jpg">1024×768</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_wikingsoft_1.png" alt="">
+                <div class="caption">
+                    <p>by <a href="mailto:graphics@wikingsoft.net">Peter Bauer</a> from Wikingsoft</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/VideoLAN.png">640×480</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_wikingsoft_2.png" alt="">
+                <div class="caption">
+                    <p>by <a href="mailto:graphics@wikingsoft.net">Peter Bauer</a> from Wikingsoft</p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan-wikingsoft2.png">1024×768</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <img width="300" src="http://images.videolan.org/images/goodies/thumbnails/wall_siddiqui.png" alt="">
+                <div class="caption">
+                    <p>by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a></p>
+                    <p>
+                        Download:
+                        <a href="http://images.videolan.org/images/goodies/videolan_org_1024x768.png">1024×768</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan_org_1280x960.png">1280×960</a>
+                        /
+                        <a href="http://images.videolan.org/images/goodies/videolan_org_1600x1200.png">1600×1200</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <h3>RPM Repository</h3>
+    <p>All videolan background images can now be downloaded in one RPM package. The (relocatable) package
+    has been built by <a href="https://www.jpsaman.org/">Jean-Paul Saman</a> on RH 9.0, but should also be
+    useable on SuSE, Mandrake and other RPM-aware distributions.</p>
+    <p>To install the package:</p>
+    <p>Download the rpm here: <code><a href="https://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a></code>.</p>
+    <p>Use <code>rpm ivh -prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm</code> to relocated the installed images to a new location on e.g: SuSE systems.</p>
+    <p>The source package can be found <a href="https://images.videolan.org/images/backup/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
+
+</section>
+
+<hr />
+
+<section>
+
+    <h2 id="boot">Boot Screens</h2>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+            <div class="thumbnail">
+                <a href="http://images.videolan.org/images/goodies/lilo-videolan.jpg">
+                    <img width="300" src="http://images.videolan.org/images/goodies/lilo-videolan-small.jpg" alt="">
+                </a>
+                <div class="caption">
+                    <p>VideoLAN LILO bootscreen by Karibu</p>
+                    <p>
+                        <a href="http://images.videolan.org/images/goodies/lilo-videolan.tar.gz">Download</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<hr />
+
+<section>
+
+    <h2 id="banners">Banners</h2>
+
+    <p class="center"><a href="vlc.2" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
+    <img src="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" alt="Get VLC media player" height="45" width="110"></a></p>
+    <p>
+    Use the following code to include this banner in your site:</p>
+    <pre>&lt;a href="//www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
+    &lt;img src="//www.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /&gt;
+&lt;/a&gt;
+    </pre>
+    <p>
+    The following sizes are available:</p>
+    <ul class="bullets">
+    <li>
+    <a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png">Small banner</a></li>
+    <li>
+    <a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_120.png">Medium banner</a></li>
+    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_150.png">Large banner</a></li>
+    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.png">Supersized banner</a></li>
+    <li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.psd">Original Photoshop document</a></li>
+    </ul>
+
+    <p>This banner was created by
+    <a href="http://www.sidequest.org/">Derk-Jan Hartman</a>
+    and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">this Creative Commons License</a>.
+    </p>
+
+    <p>Another banner made by Gen:</p>
+    <p><a href="vlc/index.html"><img src="http://images.videolan.org/images/goodies/getvlc.png" class="nofix" style="vertical-align: middle; border-width: 0px;" alt="get VLC !" height="15" width="80"></a>
+    </p>
+
+    <p>And another one by snis:</p>
+    <p><img src="http://images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"><br><img src="http://images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"></p>
+    <p>Get <a href="http://images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
+
+    <p>An older banner:</p>
+    <p><a href="vlc/index.html"><img src="http://images.videolan.org/images/goodies/getvlcnow.png" style="vertical-align: middle; border-width: 0px;" alt="get VLC NOW!" height="32" width="100"></a>
+    </p>
+
+</section>
+
+<hr />
+
+<section>
+
+    <h2 id="clothing">Clothing</h2>
+    <p>Soon!</p>
+
+</section>
+
+<hr />
+
+</div>
+
+    </div> <!-- BodyInner -->
+    <div class="clearfix"></div>
+    <div id='footer' class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <a href="index.html">
+                        <img src='http://images.videolan.org/images/logoGrey.png' alt='Association VideoLAN' class='center-xs center-sm' />
+                    </a>
+                    <div class="social-box">
+                        <a class="social" href="https://www.facebook.com/vlc.media.player">
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a class="social" href="https://www.twitter.com/videolan">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>VLC media player</div>
+                    <ul>
+                        <li><a href="vlc/download-linux.html">VLC</a></li>
+                        <li><a href="vlc/download-windows.html">VLC for Windows</a></li>
+                        <li><a href="vlc/download-macosx.html">VLC for Mac OS X</a></li>
+                        <li><a href="vlc/download-ubuntu.html">VLC for Ubuntu</a></li>
+                        <li><a href="vlc/download-android.html">VLC for Android</a></li>
+                        <li><a href="vlc/download-ios.html">VLC for iOS</a></li>
+                        <li><a href="vlc/skins.html">Skins</a></li>
+                        <li><a href='https://addons.videolan.org/browse/cat/323/ord/latest/'>Extensions</a></li>
+                        <li><a href="vlc/todo.html">Features</a></li>
+                        <li><a href="vlc/screenshots.html">Screenshots</a></li>
+                        <li><a href="vlc/skineditor.html">VLC Skin Editor</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>All Projects</div>
+                    <ul>
+                        <li><a href="vlmc/index.html">VideoLan Movie Creator</a></li>
+                        <li><a href="projects/dvblast.html">DVBlast</a></li>
+                        <li><a href="developers/x264.html">x264</a></li>
+                        <li><a href="developers/x262.html">x262</a></li>
+                        <li><a href="developers/x265.html">x265</a></li>
+                        <li><a href="projects/multicat.html">multicat</a></li>
+                        <li><a href="projects/dav1d.html">dav1d</a></li>
+                        <li><a href="projects/vlma.2">VLMa</a></li>
+                        <li><a href="vlc/libvlc.html">libVLC</a></li>
+                        <li><a href="libdvdcss/index.html">libdvdcss</a></li>
+                        <li><a href="developers/libdvdnav.html">libdvdnav</a></li>
+                        <li><a href="developers/libdvdnav.html">libdvdread</a></li>
+                        <li><a href="developers/libbluray.html">libbluray</a></li>
+                        <li><a href="developers/libdvbpsi.html">libdvbpsi</a></li>
+                        <li><a href="developers/libaacs.html">libaacs</a></li>
+                        <li><a href="developers/libdvbcsa.html">libdvbcsa</a></li>
+                        <li><a href="developers/bitstream.html">biTStream</a></li>
+                        <li><a href="developers/unity.html">vlc-unity</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>Community</div>
+                    <ul>
+                        <li><a href='https://wiki.videolan.org/'>Wiki</a></li>
+                        <li><a href='https://forum.videolan.org/'>Forums</a></li>
+                        <li><a href="support/lists.php">Mailing-Lists</a></li>
+                        <li><a href="support/faq.html">FAQ</a></li>
+                        <li><a href="contribute.html#money">Donate money</a></li>
+                        <li><a href="contribute.html">Donate time</a></li>
+                        <li><a href="goodies.html">Get Goodies</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>VideoLAN</div>
+                    <ul>
+                        <li><a href="videolan.2">Project and Organization</a></li>
+                        <li><a href="videolan/team.2">Team</a></li>
+                        <li><a href="legal.html">Legal</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="vlc/partners.html">Partners</a></li>
+                        <li><a href="videolan/mirrors.html">Mirrors</a></li>
+                        <li><a href="press/index.html">Press center</a></li>
+                        <li><a href="videolan/events.2">Events</a></li>
+                        <li><a href="security.2">Security center</a></li>
+                        <li><a href="contribute.html">Get Involved</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div id='translation' class="col-md-12" style="font-size: 9px;">
+                                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style='text-align: center; line-height: 14px; font-size: 9px; color: #999;'>
+                    <p>
+                        <a href='legal.html'>Legal</a>
+                        <span dir="ltr" lang="en">
+                            | <a href='contact.html'>Report Trademark Abuse</a><br />
+
+                            VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="videolan.2">VideoLAN non-profit organization.</a><br />
+                            VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.
+                        </span>
+                    </p>
+                    <p>
+                        <span dir="ltr" lang="en">
+                            Design by <a href="https://www.madebyargon.com">Made By Argon</a>. Some icons are licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC BY-SA 3.0+</a>. <br />
+                            The VLC cone icon was designed by Richard Øiestad. Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
