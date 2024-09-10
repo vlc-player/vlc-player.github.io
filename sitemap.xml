@@ -1,0 +1,1159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://vlc-player.github.io/</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/index.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan.2</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/partners.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/legal.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/index.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/contact.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-linux.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/todo.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/skins.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/goodies.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/projects.2</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/projects/dvblast.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/x264.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/x262.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/x265.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/projects/multicat.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/projects/dav1d.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/skineditor.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/libvlc.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/libdvdcss/index.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libdvdnav.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libbluray.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libdvbpsi.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libaacs.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libdvbcsa.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/bitstream.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/unity.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/contribute.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/support.2</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-windows.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-macosx.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-android.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-ios.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlmc/index.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/dtsdec.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/news.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.21.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3021.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.20.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3019.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3020.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/ios34.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.18.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3018.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-ubuntu.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/screenshots.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/support/faq.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/mirrors.html</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security.2</loc>
+	<lastmod>2024-09-10T18:31:25+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/unhcr.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/ios33.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/videolan-20.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/PR_CIA_Vault7_VLC.pdf</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/vlc-apple-tv.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/vlc-2.2.0.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/2014-1.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/ios2out.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/win8ks-ended.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/win8ks.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/lgpl-modules.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/lgpl.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/lgpl-libvlc.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/events/vdd11.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/2010-1.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/patents.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/eucd.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/pr2007-1.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/pr2006-2.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/pr2006-1.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/pr2005-1.html</loc>
+	<lastmod>2024-09-10T18:31:28+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.html</loc>
+	<lastmod>2024-09-10T18:31:29+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/skins2-create.html</loc>
+	<lastmod>2024-09-10T18:31:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc.2</loc>
+	<lastmod>2024-09-10T18:31:29+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/index.html</loc>
+	<lastmod>2024-09-10T18:31:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libbdplus.html</loc>
+	<lastmod>2024-09-10T18:31:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/lists.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-winrt.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-windowsphone.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-appletv.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-sources.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-debian.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-suse.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-gentoo.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-fedora.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-archlinux.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-slackware.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-redhat.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-chromeos.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-freebsd.html</loc>
+	<lastmod>2024-09-10T18:31:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libdvdcss.txt</loc>
+	<lastmod>2024-09-10T18:31:31+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/index.html</loc>
+	<lastmod>2024-09-10T18:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/lists.html</loc>
+	<lastmod>2024-09-10T18:31:32+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/i18n/index.html</loc>
+	<lastmod>2024-09-10T18:31:32+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/privacy.html</loc>
+	<lastmod>2024-09-10T18:31:32+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.17.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.16.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.13.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.11.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.10.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.8.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.7.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.5.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.4.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.3.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.2.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.1.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.0.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/aomedia.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.2.5.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1601.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.2.4.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.2.3.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.2.2.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/libdvdcss.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.2.1.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.1.5.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.1.3.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.1.2.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.1.1.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.1.0.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.8.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.7.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.6.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.5.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.4.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.2.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/stats/downloads.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.1.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/2.0.0.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1105.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1106.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.10.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1104.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.9.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.8.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1102.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.6.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1007.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1006.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.5.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1005.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.4.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.3.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.2.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.1.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.0.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/1.1.0-RC.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1003.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/events/vdd09.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0901.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/contest/index.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/download.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma.1</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/sa0807.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0806.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0803.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/sa0703.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/sa0702.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/sa0701.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/doc</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/streaming/index.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-linupy.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/libdvbpsi/download.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/screenshots/index.html</loc>
+	<lastmod>2024-09-10T18:31:33+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc-ios359.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3013.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3012.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc3011.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc309.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sb-vlc308.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1901.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1801.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1501.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1302.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1301.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1202.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1201.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1107.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1103.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1101.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1002.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0805.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0804.html</loc>
+	<lastmod>2024-09-10T18:31:35+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/press/LicenseAgreement_SHOUTcast.pdf</loc>
+	<lastmod>2024-09-10T18:31:36+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.de.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.fr.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.hi.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.it.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.jp.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.pt.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/releases/3.0.12-update.ru.html</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc.1</loc>
+	<lastmod>2024-09-10T18:31:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/vlc.html</loc>
+	<lastmod>2024-09-10T18:31:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/webirc/index.html</loc>
+	<lastmod>2024-09-10T18:31:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/i18n/vlcstat.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/i18n/vlc-howto.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/developers/i18n/transifex-howto.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/partners.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/events/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/features.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/support/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/projects/vlma/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/team/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/index.html</loc>
+	<lastmod>2024-09-10T18:31:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/videolan/events/vdd09.pdf</loc>
+	<lastmod>2024-09-10T18:31:46+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/setup.html</loc>
+	<lastmod>2024-09-10T18:31:46+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/index.html</loc>
+	<lastmod>2024-09-10T18:31:46+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/streaming-features.html</loc>
+	<lastmod>2024-09-10T18:31:47+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1203.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1108.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1004.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa1001.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0811.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0810.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0809.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0807.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0802.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0801.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0703.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0702.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/security/sa0701.html</loc>
+	<lastmod>2024-09-10T18:31:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/satellite.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/server.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/media.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/schedule.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlma/doc/troubleshooting.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-beos.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://vlc-player.github.io/vlc/download-familiar.html</loc>
+	<lastmod>2024-09-10T18:31:55+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
