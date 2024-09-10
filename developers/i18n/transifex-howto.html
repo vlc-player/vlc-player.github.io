@@ -1,0 +1,380 @@
+    <!DOCTYPE html>
+    <html lang="en" >
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(98293013, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/98293013" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->        
+        <meta name="Author" content="VideoLAN" />
+        <meta name="Keywords" content=
+        "VideoLAN, VLC, VLC player, VLC media player, download, media player, player download, codec, encoder, media converter, video, video player,
+        multimedia, multicast, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Android, Streaming,
+        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, MKV, m2ts, open source, free software, floss, free" />
+
+        <meta name="Description" content="VLC media player internationalization with transifex" />
+        <meta name="apple-itunes-app" content="app-id=650377962"/>
+        <title>VLC media player internationalization with transifex - VideoLAN</title>
+
+        
+                <link rel="shortcut icon" type="image/x-icon" href="http://images.videolan.org/images/favicon.ico" />
+
+                <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="http://images.videolan.org/videolan-news.rss" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
+
+        <!-- developers/i18n/transifex-howto -->
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/bootstrap.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/style.min.css" />
+
+                <link rel="dns-prefetch" href="http://get.videolan.org/" />
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 7]>
+            * {
+                behavior: url("/style/box-sizing.htc");
+            }
+        <![endif]-->
+        <!--[if lt IE 7]>
+           <style type="text/css">
+              @media screen{ body{behavior:url("/width.htc");} }
+                /* PNG support for IE */
+                img {  behavior: url("/png.htc");}
+                .DXImageTransformed { display: inline-block; }
+              </style>
+        <![endif]-->
+
+
+                        <script src="http://images.videolan.org/js/jquery.min.js" type='text/javascript'></script>
+        <script async="async" src="http://images.videolan.org/js/bootstrap.min.js" type="text/javascript"></script>
+        
+                <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38853043-1"></script>
+            <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-38853043-1', { 'anonymize_ip': true })
+
+            function isTouchDevice() {
+                return 'ontouchstart' in window || navigator.maxTouchPoints;
+            };
+
+            $(document).ready(function() {
+                //Early return if touch device
+                if (isTouchDevice()) {
+                    return;
+                }
+                //Open dropdown menu on hover if not touch device & navbar-toggle not visible
+                $('#nav ul.nav li.dropdown').hover(function() {
+                    if (!$('.navbar-toggle').is(':visible') && !$(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                }, function() {
+                    if (!$('.navbar-toggle').is(':visible') && $(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                });
+            });
+
+        </script>
+    </head>
+<body class=''><div id='bodyInner' class='orange'>    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="../../index.html">
+        <img src='http://images.videolan.org/images/logoOrange.png' alt='VideoLAN association' />
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="main-navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown ">
+          <a href="../../videolan.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../videolan.2">Team &amp; Organization</a></li>
+            <li><a href="../../vlc/partners.html">Consulting Services &amp; Partners</a></li>
+            <li><a href="../../videolan/events.2">Events</a></li>
+            <li><a href="../../legal.html">Legal</a></li>
+            <li><a href="../../press/index.html">Press center</a></li>
+            <li><a href="../../contact.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="../../vlc/download-linux.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../vlc/download-linux.html">Download</a></li>
+            <li><a href="../../vlc/todo.html">Features</a></li>
+            <li><a href="../../vlc/skins.html">Customize</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../../goodies.html">Get Goodies</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="../../projects.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../projects/dvblast.html">DVBlast</a></li>
+            <li><a href="../x264.html">x264</a></li>
+            <li><a href="../x262.html">x262</a></li>
+            <li><a href="../x265.html">x265</a></li>
+            <li><a href="../../projects/multicat.html">multicat</a></li>
+            <li><a href="../../projects/dav1d.html">dav1d</a></li>
+            <li><a href="../../vlc/skineditor.html">VLC Skin Editor</a></li>
+            <li><a href="../../vlc/download-linux.html">VLC media player</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../../vlc/libvlc.html">libVLC</a></li>
+            <li><a href="../../libdvdcss/index.html">libdvdcss</a></li>
+            <li><a href="../libdvdnav.html">libdvdnav</a></li>
+            <li><a href="../libdvdnav.html">libdvdread</a></li>
+            <li><a href="../libbluray.html">libbluray</a></li>
+            <li><a href="../libdvbpsi.html">libdvbpsi</a></li>
+            <li><a href="../libaacs.html">libaacs</a></li>
+            <li><a href="../libdvbcsa.html">libdvbcsa</a></li>
+            <li><a href="../bitstream.html">biTStream</a></li>
+            <li><a href="../unity.html">vlc-unity</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../../projects.2">All Projects</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="../../contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../contribute.html">Getting started</a></li>
+            <li><a href="../../contribute.html#money">Donate</a></li>
+            <li><a href="../../support.2#bugs">Report a bug</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="../../support.2">Support</a>
+        </li>
+      </ul>
+               <ul class="nav navbar-nav pull-right donate-box">
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="dropdown visible-sm donate2">
+                <a href="../../contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Donate <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu donate-dropdown pull-right">
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+                    </div>
+ </div>
+</nav>
+
+<!-- header -->
+
+    <div class="header container">
+        <div id="nonprofitOrganizationDiv2" class="center-block">
+                VideoLAN, a project and a <a href="../../videolan.2" class="noUnderline">non-profit organization.</a>         </div>
+            </div>
+
+<h1>Using transifex for VideoLAN translations</h1>
+
+<h2>Do you have to use transifex?</h2>
+
+<p>Use transifex only if you like, you don't have to. It is easier for me to keep track of updates. <em>If</em> you want to use transifex, please note:</p>
+
+<h2>Email address and name</h2>
+
+<p>The email address used for your account will be visible in some files (for example in the header of the po
+files). So will the full name set in your profile.</p>
+
+<p>There is a setting to not show your email address. Hide your address, if you prefer to not 
+publish a spam free address. Without a visible email, the only way to contact you will be the internal messages.</p>
+
+<p>If you want to have your name in the AUTHORS file, you will have to sent me (username: Christoph_Miebach, email: see below) a message. Useful information will be:</p>
+<ul>
+  <li>Transifex username</li>
+  <li>Real name</li>
+  <li>Language(s) you are working at</li>
+</ul>
+<p>
+I am hardly able to keep track of all the translators and as some of them prefer to be anonymous, 
+I would consider myself spamming if I asked them for their names over and over again.
+</p>
+
+<h2>Existing translations</h2>
+
+<p>Don't start again with an empty translation if you already started translating somewhere else (local po file for example)!</p>
+
+<p>Do not throw away the work already done for your language. If you already have
+some translations (typically there is a po file for your language),
+it is possible to upload them and continue work from there. Reviewing translations is much faster than starting from scratch usually.</p>
+
+<h3>Uploading "patches"</h3>
+
+<p>You don't need to upload translation files with all messages. Instead, you can
+simply write some kind of patch files and upload them.<br />
+This might be useful if you want to have your new translations reviewed before
+uploading.<br />
+The file needs to be complete (with regards to the specs), though.</p>
+
+<br />
+<h4>po files</h4>
+
+<p>For po files you will need the header starting with <kbd>msgid ""</kbd>
+that typically ends short after the 
+<kbd>"Plural-Forms:"</kbd> line and, for everything you want to translate the usual pair of
+msgid and msgstr.</p>
+
+<br />
+<h4>xml files</h4>
+
+<p>For the xml it will be<br />
+<kbd>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
+&lt;resources&gt;<br />
+The translated resources HERE<br />
+&lt;/resources&gt;<kbd></p>
+
+<br />
+<p>Note:<br />
+This will overwrite the translations currently stored at transifex. It won't
+touch the ones that are empty in your patch file, but there will be no warning
+on overwriting.</p>
+
+
+<h2>Now, does using transifex do any good for you?</h2>
+
+<p>Depends. Besides the trouble with the translator's names it seems to work.</p>
+
+<p>If you already have a good workflow and maybe 100% translated you probably don't
+need this as it only means extra work, but using it as an uploading service is a good idea (instead of emailing the file to me).
+While having some help with the translation usually is a good thing, a careless
+or evil translator can do some harm to your translation, 
+so you best download a backup version every now and then. 
+(I don't think the old translations are lost forever, but you certainly don't
+want to check the translation history for several hundreds of messages.)
+You might get "join requests" to your team you need to handle yourself (I
+usually won't modify your translation or your team).<p>
+
+
+<h3>Benefits:</h3>
+<p>If the strings change in the git, the current version will show up automatically
+(within a day), so you won't have to take care of that yourself.</p>
+<p>You can upload whenever you got something translated and don't need to email your
+progress and I will upload them to git at release time.</p>
+<p>Even better: Some of the nightly builds fetch the current translations, so you can see 
+them live within a day.</p>
+<p>You can have several translators (maybe as reviewers) in your team.</p>
+<p>It's less likely your updates are overlooked. At the moment, updating existing 
+translations for VLC for Android&trade; and the website is almost automated</p>
+
+<p>It's possible to get the translation of a similar language displayed when using 
+the translation web frontend</p>
+<p>Not transifex related news: We are going to enable every translation (upon request) 
+for the nightly builds. This is different to the normal releases.</p>
+
+<h2>Stopping or pausing work as maintainer</h2>
+
+<p>Please pick an additional maintainer for your language when you expect not having time any more (or for a longer while). 
+If you are the only team member, you could pick me. This is just to have someone care for new join requests.
+</p>
+
+<h2>Start work</h2>
+
+<p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work, subscribe to the 
+<a href="https://mailman.videolan.org/listinfo/translators/">translators mailing list</a>: translators@videolan.org).</p>
+
+<p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains 
+VLC media player (2.0.X and 2.1.X), translations for the website (only some pages), 
+VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
+
+<h3>Additional remarks</h3>
+<ul>
+<li>VideoLAN Movie Creator is <strong>not</strong> going to be released soon. Translating the current state probably is a waste of time.</li>
+<li>For the smaller projects (website, Android, iOS) I usually start including your translation 
+when it reaches 100%, so you probably want to finish the first one before starting the next.</li>
+</ul>
+
+<h3>Here you can find the files for translation or browse to see if your language already has a (partial) translation:</h3>
+<table>
+  <tr>
+    <th>VLC for Android&trade; (beta)</th>
+    <th>VideoLAN website</th>
+    <th>VideoLAN Movie Creator</th>
+  </tr>
+  <tr>
+    <td><a href="https://people.videolan.org/~etix/transifex/vlc-android/strings.xml">strings.xml</a></td>
+    <td><a href="https://code.videolan.org/VideoLAN.org/websites/raw/master/www.videolan.org/locale/website.pot">website.pot</a></td>
+    <td><a href="https://git.videolan.org/?p=vlmc.git;a=blob_plain;f=ts/template.ts;hb=HEAD">template.ts</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://git.videolan.org/?p=vlc-ports/android.git;a=tree;f=vlc-android/res;hb=HEAD">browse git repo</a></td>
+    <td><a href="https://code.videolan.org/VideoLAN.org/websites/tree/master/www.videolan.org/locale">browse git repo</a></td>
+    <td><a href="https://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
+  </tr>
+</table>
+
+<p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>
