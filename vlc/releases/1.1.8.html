@@ -1,0 +1,721 @@
+    <!DOCTYPE html>
+    <html lang="en" >
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }} k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(98293013, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/98293013" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->        
+        <meta name="Author" content="VideoLAN" />
+        <meta name="Keywords" content=
+        "VideoLAN, VLC, VLC player, VLC media player, download, media player, player download, codec, encoder, media converter, video, video player,
+        multimedia, multicast, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Android, Streaming,
+        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, MKV, m2ts, open source, free software, floss, free" />
+
+        <meta name="Description" content="VLC 1.1.8 release" />
+        <meta name="apple-itunes-app" content="app-id=650377962"/>
+        <title>VLC 1.1.8 release - VideoLAN</title>
+
+        
+                <link rel="shortcut icon" type="image/x-icon" href="http://images.videolan.org/images/favicon.ico" />
+
+                <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="http://images.videolan.org/videolan-news.rss" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
+
+        <!-- vlc/releases/1 -->
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/bootstrap.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="http://images.videolan.org/style/style.min.css" />
+
+                <link rel="dns-prefetch" href="http://get.videolan.org/" />
+        
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 7]>
+            * {
+                behavior: url("/style/box-sizing.htc");
+            }
+        <![endif]-->
+        <!--[if lt IE 7]>
+           <style type="text/css">
+              @media screen{ body{behavior:url("/width.htc");} }
+                /* PNG support for IE */
+                img {  behavior: url("/png.htc");}
+                .DXImageTransformed { display: inline-block; }
+              </style>
+        <![endif]-->
+
+
+                        <script src="http://images.videolan.org/js/jquery.min.js" type='text/javascript'></script>
+        <script async="async" src="http://images.videolan.org/js/bootstrap.min.js" type="text/javascript"></script>
+        
+                <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38853043-1"></script>
+            <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-38853043-1', { 'anonymize_ip': true })
+
+            function isTouchDevice() {
+                return 'ontouchstart' in window || navigator.maxTouchPoints;
+            };
+
+            $(document).ready(function() {
+                //Early return if touch device
+                if (isTouchDevice()) {
+                    return;
+                }
+                //Open dropdown menu on hover if not touch device & navbar-toggle not visible
+                $('#nav ul.nav li.dropdown').hover(function() {
+                    if (!$('.navbar-toggle').is(':visible') && !$(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                }, function() {
+                    if (!$('.navbar-toggle').is(':visible') && $(this).hasClass('open')) {
+                        $('.dropdown-toggle', this).trigger('click');
+                    }
+                });
+            });
+
+        </script>
+    </head>
+<body class=''><div id='bodyInner' class='orange'>    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="../../index.html">
+        <img src='http://images.videolan.org/images/logoOrange.png' alt='VideoLAN association' />
+        </a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="main-navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown ">
+          <a href="../../videolan.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoLAN <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../videolan.2">Team &amp; Organization</a></li>
+            <li><a href="../partners.html">Consulting Services &amp; Partners</a></li>
+            <li><a href="../../videolan/events.2">Events</a></li>
+            <li><a href="../../legal.html">Legal</a></li>
+            <li><a href="../../press/index.html">Press center</a></li>
+            <li><a href="../../contact.html">Contact us</a></li>
+          </ul>
+        </li>
+        <li class="dropdown  active ">
+          <a href="../download-linux.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VLC <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../download-linux.html">Download</a></li>
+            <li><a href="../todo.html">Features</a></li>
+            <li><a href="../skins.html">Customize</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../../goodies.html">Get Goodies</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="../../projects.2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../projects/dvblast.html">DVBlast</a></li>
+            <li><a href="../../developers/x264.html">x264</a></li>
+            <li><a href="../../developers/x262.html">x262</a></li>
+            <li><a href="../../developers/x265.html">x265</a></li>
+            <li><a href="../../projects/multicat.html">multicat</a></li>
+            <li><a href="../../projects/dav1d.html">dav1d</a></li>
+            <li><a href="../skineditor.html">VLC Skin Editor</a></li>
+            <li><a href="../download-linux.html">VLC media player</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../libvlc.html">libVLC</a></li>
+            <li><a href="../../libdvdcss/index.html">libdvdcss</a></li>
+            <li><a href="../../developers/libdvdnav.html">libdvdnav</a></li>
+            <li><a href="../../developers/libdvdnav.html">libdvdread</a></li>
+            <li><a href="../../developers/libbluray.html">libbluray</a></li>
+            <li><a href="../../developers/libdvbpsi.html">libdvbpsi</a></li>
+            <li><a href="../../developers/libaacs.html">libaacs</a></li>
+            <li><a href="../../developers/libdvbcsa.html">libdvbcsa</a></li>
+            <li><a href="../../developers/bitstream.html">biTStream</a></li>
+            <li><a href="../../developers/unity.html">vlc-unity</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="../../projects.2">All Projects</a></li>
+          </ul>
+        </li>
+        <li class="dropdown ">
+          <a href="../../contribute.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../../contribute.html">Getting started</a></li>
+            <li><a href="../../contribute.html#money">Donate</a></li>
+            <li><a href="../../support.2#bugs">Report a bug</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="../../support.2">Support</a>
+        </li>
+      </ul>
+               <ul class="nav navbar-nav pull-right donate-box">
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="hidden-sm">
+                <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+            </li>
+            <li class="dropdown visible-sm donate2">
+                <a href="../../contribute.html#money" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    Donate <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu donate-dropdown pull-right">
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="EUR" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="GB" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="euros" type='text' name="amount" value="4.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                    <li>
+                        <form class="donate2" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <fieldset>
+        <input name="cmd" value="_xclick" type="hidden"/>
+        <input name="business" value="sponsor@videolan.org" type="hidden"/>
+        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+        <input name="currency_code" value="USD" type="hidden"/>
+        <input name="tax" value="0" type="hidden"/>
+        <input name="lc" value="US" type="hidden"/>
+        <input name="no_shipping" value="1" type="hidden"/>
+                <input name="return" value="https://www.videolan.org/thank_you.html" type="hidden"/>
+        <input class="dollars" type='text' name="amount" value="5.00" />
+        <button type='submit'>donate</button>
+    </fieldset>
+</form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+                    </div>
+ </div>
+</nav>
+
+<!-- header -->
+
+    <div class="header container">
+        <div id="nonprofitOrganizationDiv2" class="center-block">
+                VideoLAN, a project and a <a href="../../videolan.2" class="noUnderline">non-profit organization.</a>         </div>
+            </div>
+
+        <div class="clearme" style='padding-top: 35px;'>
+            <img src='http://images.videolan.org/images/largeVLC.png' alt='Large Orange VLC media player Traffic Cone Logo' class='projectImg' />
+            <div style='float: left; width: 500px;'>
+                <h1 class='bigtitle'>VLC 1.1.8</h1>
+                <div class='projectDescription'>
+                    VLC is a free and open source cross-platform multimedia player and<br />
+                    framework that plays most multimedia files as well as DVD, Audio CD,<br />
+                    VCD, and various streaming protocols.
+                </div>
+                <a class='extraInfoLink' href='../todo.html'>Features</a>
+                <a class='extraInfoLink' href='../screenshots.html'>Screenshots</a>
+                <a class='extraInfoLink' href='../skins.php'>Extensions</a>
+                <a id='downloadButton' href='http://get.videolan.org/vlc/3.0.21/win32/vlc-3.0.21-win32.exe'>
+                    <img style='position: absolute; top: -10px; left: -10px;' src='../../images/downloadVLC.png' alt='Download VLC icon' />
+                    <span class='downloadText'>Download VLC</span>
+                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
+                    Version <span id='downloadVersion'>3.0.20                    </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
+                    </span>
+                </a>
+                    <script type='text/javascript'>
+    //Editable details for the client side OS appropriate download detection.
+    var PLATFORMS = {"windows":{"name":"Windows","size":"38&nbsp;MB","latestVersion":"3.0.21","location":"\/\/get.videolan.org\/vlc\/3.0.21\/win32\/vlc-3.0.21-win32.exe"},"windows64":{"name":"Windows 64bit","size":"40&nbsp;MB","latestVersion":"3.0.21","location":"\/\/get.videolan.org\/vlc\/3.0.21\/win64\/vlc-3.0.21-win64.exe"},"windowsarm64":{"name":"Windows ARM 64","size":"58&nbsp;MB","latestVersion":"4.0.0-dev-20180508","location":"https:\/\/artifacts.videolan.org\/vlc\/nightly-win64-arm-llvm\/"},"osx":{"name":"macOS","size":"48&nbsp;MB","latestVersion":"3.0.21","location":"\/\/get.videolan.org\/vlc\/3.0.21\/macosx\/vlc-3.0.21-intel64.dmg"},"osxarm64":{"name":"macOS (Apple Silicon)","size":"48&nbsp;MB","latestVersion":"3.0.21","location":"\/\/get.videolan.org\/vlc\/3.0.21\/macosx\/vlc-3.0.21-arm64.dmg"},"linux":{"name":"Linux","latestVersion":"3.0.20","location":"\/vlc\/#download"},"android":{"name":"Android","latestVersion":"3.5.4","location":"\/\/play.google.com\/store\/apps\/details?id=org.videolan.vlc"},"ios":{"name":"iOS","size":"56.5&nbsp;MB","latestVersion":"3.6.4","location":"\/\/itunes.apple.com\/app\/apple-store\/id650377962?pt=454758&amp;ct=vodownloadpage&amp;mt=8"},"tvos":{"name":"Apple TV - tvOS","size":"21.7&nbsp;MB","latestVersion":"3.6.0","location":"\/vlc\/download-appletv.html"},"osx32":{"name":"Mac OS X (32bit)","size":"26&nbsp;MB","location":"\/\/get.videolan.org\/vlc\/2.0.10\/macosx\/vlc-2.0.10-intel.dmg"},"osxPPC":{"name":"Mac OS X (PPC)","size":"25&nbsp;MB","location":"\/\/get.videolan.org\/vlc\/2.0.10\/macosx\/vlc-2.0.10-powerpc.dmg"},"debian":{"name":"Debian GNU\/Linux","location":"\/vlc\/download-debian.html"},"ubuntu":{"name":"Ubuntu","location":"snap:\/\/vlc"},"fedora":{"name":"Fedora Linux","location":"\/vlc\/download-fedora.html"},"redhat":{"name":"RedHat Linux","location":"\/vlc\/download-redhat.html"},"gentoo":{"name":"Gentoo Linux","location":"\/vlc\/download-gentoo.html"},"suse":{"name":"Suse Linux","location":"\/vlc\/download-suse.html"},"mandriva":{"name":"Mandriva Linux","location":"\/vlc\/download-mandriva.html"},"beos":{"name":"BeOS","location":"\/vlc\/download-beos.html"},"freebs":{"name":"FreeBSD","location":"\/vlc\/download-freebsd.html"},"winrt":{"name":"Windows Store","latestVersion":"3.1.2","location":"\/vlc\/download-winrt.html"},"chromeos":{"name":"Chrome OS","location":"\/vlc\/download-chromeos.html"}};
+    //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
+    var cache = new Image();
+    cache.src = '/style/images/downloadButtonGradientOrangeBright.png';
+
+    function getOS() {
+        var OS="windows"; //Default
+
+        if (navigator.appVersion.indexOf("Win")!=-1) {
+           if (navigator.userAgent.indexOf('Windows NT 5.0') == -1 &&
+               navigator.userAgent.indexOf('Windows NT 5.1') == -1 &&
+                 (navigator.userAgent.indexOf('Win64')>-1 ||
+                   navigator.platform=='Win64' ||
+                   navigator.userAgent.indexOf('x86_64')>-1 ||
+                   navigator.userAgent.indexOf('x86_64')>-1 ||
+                   navigator.userAgent.indexOf('amd64')>-1 ||
+                   navigator.userAgent.indexOf('AMD64')>-1 ||
+                   navigator.userAgent.indexOf('WOW64')>-1
+           ))
+           {
+               OS="windows64";
+           } else {
+               if (window.external && window.external.getHostEnvironmentValue && window.external.getHostEnvironmentValue('os-architecture').indexOf("ARM64") !== -1) {
+                   OS="windowsarm64";
+               }
+               else {
+                   try{
+                       var canvas = document.createElement('canvas');
+                       var gl = canvas.getContext('webgl');
+
+                       var debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+                       var renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+                       if(renderer.indexOf("Qualcomm") !== -1)
+                           OS="windowsarm64";
+                   } catch (e) { }
+               }
+           }
+        }
+
+        //MacOS, MacOS X, macOS
+        if (navigator.appVersion.indexOf("Mac")!=-1) {
+          if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) {
+              OS="osxPPC";
+          } else if (navigator.userAgent.indexOf("OS X 10.5")!=-1 ||
+                     navigator.userAgent.indexOf("OS X 10.6")!=-1) {
+              OS="osx32";
+          } else {
+              OS="osx";
+              try {
+                  var glcontext = document.createElement("canvas").getContext("webgl");
+                  var debugrenderer = glcontext ? glcontext.getExtension('WEBGL_debug_renderer_info') : null;
+                  var renderername = debugrenderer && glcontext.getParameter(debugrenderer.UNMASKED_RENDERER_WEBGL) || "";
+                  if (renderername.match(/Apple/) && !renderername.match(/Apple GPU/)) {
+                      OS="osxarm64";
+                  }
+              } catch (e) { }
+          }
+       }
+       if (navigator.platform.indexOf("Linux")!=-1) {
+            if((navigator.userAgent.indexOf("Ubuntu") != -1) ||
+                (navigator.userAgent.indexOf("ubuntu") != -1)) OS="ubuntu";
+            else if(navigator.userAgent.indexOf("Debian") != -1) OS="debian";
+            else if(navigator.userAgent.indexOf("Android") != -1) OS="android";
+            else if(navigator.userAgent.indexOf("Mandriva") != -1) OS="mandriva";
+            else if(navigator.userAgent.indexOf("Red Hat") != -1) OS="redhat";
+            else if(navigator.userAgent.indexOf("Fedora") != -1) OS="fedora";
+            else if(navigator.userAgent.indexOf("SUSE") != -1) OS="suse";
+            else if(navigator.userAgent.indexOf("Gentoo") != -1) OS="gentoo";
+            else OS="linux";
+       }
+
+      if (navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) {
+            OS="ios";
+      }
+       if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
+       if (navigator.platform.indexOf("freebsd") != -1) OS="freebsd";
+       if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
+       return OS;
+    }
+
+    $(document).ready(function () {
+        var OS = getOS() || {};
+        var details = '';
+        var separator = " &nbsp;&#8226;&nbsp; ";
+        details += PLATFORMS[OS].latestVersion ? "Version " + PLATFORMS[OS].latestVersion : '';
+        details += PLATFORMS[OS].name ? separator + PLATFORMS[OS].name : '';
+        details += PLATFORMS[OS].size ? separator + PLATFORMS[OS].size : '';
+        if (details) $('#downloadDetails').html(details);
+        $('#downloadButton').attr('href', PLATFORMS[OS].location || '/vlc/#download');
+    });
+    </script>
+                <a class='extraInfoLink' href='1.1.8.html#download' style="padding-left: 100px;">Other Systems and Versions</a>
+            </div>
+        </div>
+<p>
+<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/story/r/videolan_vlc_1_1_8_release">Digg it!</a>
+<a href="http://news.ycombinator.com/item?id=2362265">Hacker News</a> <a href="http://www.reddit.com/r/reddit.com/comments/ga4oo/vlc_media_player_118_is_out/">Reddit</a>
+<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
+</p>
+<h1>What's new in 1.1.8</h1>
+<p>Two months after VLC 1.1.6, and after more than 50 million downloads of VLC 1.1.7, here is a minor release of VLC 1.1.8.</p>
+<p>Introducing small features and fixing important bugs and a security issues, here is <b>VLC 1.1.8</b>.</p>
+
+<br />
+<div style="float:left; width: 48%;">
+<ul class="blue-bullet">
+<li><a href="http://www.coresecurity.com/content/vlc-vulnerabilities-amv-nsv-files">Security update</a> regarding video width concerning some demuxers</li>
+<li>Support for a new Dirac encoder based on libschroedinger</li>
+<li>Package of the new VP8/Webm encoder 'Bali'</li>
+<li>Notable updates in .mp4, .ogg, .ape demuxers</li>
+<li>Major updates in most language translations</li>
+<li>Fixes in skins2 supports of Winamp2 skins</li>
+</ul>
+</div>
+
+<div style="float:right; width: 50%;">
+<ul class="blue-bullet">
+<li>Upgrade on the look of VLC for Mac OS X</li>
+<li>Auto-detection for .txt subtitles is fixed</li>
+<li>Fixes on Windows integration, notably regarding volume keys</li>
+<li>Codecs updates</li>
+<li>Many miscellaneous fixes</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+
+<h1>What's new in 1.1.6 and 1.1.7</h1>
+<p>Two months after VLC 1.1.5, and after more than 58 million downloads of VLC 1.1.5, here is a minor release of VLC 1.1.6.</p>
+<p>Introducing small features and fixing important bugs and a security issues, here is <b>VLC 1.1.6</b>.</p>
+<p>Introducing a security fix over 1.1.6, here is <b>VLC 1.1.6</b>.</p>
+
+<br />
+<div style="float:left; width: 48%;">
+<ul class="blue-bullet">
+<li>Security updates in codecs and demuxers</li>
+<li>Support for RTP/PCM 24bits, audio/L24</li>
+<li>Support for MPC SV7/SV8 on Windows and MacOS builds</li>
+<li>Faster Webm/VP8 decoding</li>
+<li>Support for Midi on MacOS</li>
+<li>Major updates in most language translations</li>
+</ul>
+</div>
+
+<div style="float:right; width: 50%;">
+<ul class="blue-bullet">
+<li>Support for projectM visualisation on Windows</li>
+<li>KDE and PulseAudio integration improvements</li>
+<li>Subtitles fixes and improvements</li>
+<li>Improvements in visualisations and interfaces</li>
+<li>Codecs updates</li>
+<li>Many miscellaneous fixes</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+
+
+<h1>What was new in 1.1.5</h1>
+<p>Two and a half months after VLC 1.1.4, and after almost 50 million downloads of VLC 1.1.4, here is a minor release of VLC 1.1.5.</p>
+<p>Introducing small features and fixing important bug and a security issue, here is <b>VLC 1.1.5</b>.</p>
+<br />
+<div style="float:left; width: 48%;">
+<ul class="blue-bullet">
+<li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="http://metachannels.com">MetaChannels.com</a></li>
+<li>New Game Music Emu (GME) support</li>
+<li>Windows SMB security issue - <a href="../../security/sa1006.html">VideoLAN-SA-1006</a></li>
+<li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek</li>
+<li>Mac/PowerPC port fixed in 1.1.4.1</li>
+</ul>
+</div>
+
+<div style="float:right; width: 50%;">
+<ul class="blue-bullet">
+<li>live .webm streams support</li>
+<li>GPU HD decoding using Intel IGP on Windows, using DxVA2</li>
+<li>Miscellaneous fixes on all Interfaces, Demuxers and Decoders modules</li>
+<li>Codecs updates</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+
+<h1>What was new in 1.1.4</h1>
+<p>A bit after the 1.1.3, an important security issue was discovery in
+<a href="http://www.corelan.be:8800/index.php/2010/08/25/dll-hijacking-kb-2269637-the-unofficial-list/">most windows applications</a>, and VLC is affected too.
+Since security issues matters, here is a new release, targeted for the Windows platform!</p>
+
+<div style="float:left; width: 48%;">
+<ul class="blue-bullet">
+<li>Windows Dll loading security issue, in Qt4 and dmo modules - <a href="../../security/sa1005.html">VideoLAN-SA-1005</a></li>
+<li>Fix for folders opening issue on Windows</li>
+<li>Updated translations</li>
+</ul>
+</div>
+
+<div style="clear: both;"></div>
+
+<h1>What was new in 1.1.3</h1>
+<p>A bit after the 1.1.2, we had to fix some important crashing bugs and you deserve a new release!</p>
+
+<div style="float:left; width: 48%;">
+<ul class="blue-bullet">
+<li>Taglib crash (CVE-2010-2937 / <a href="http://www.videolan.org/security/sa1004.html">VideoLAN-SA-1004</a>)</li>
+<li>Fixes for FTP relative paths and directories</li>
+<li>Fixes for Podcast and DVD modules</li>
+<li>... and many other crashes and errors fixed</li>
+</ul>
+</div>
+
+<div style="float:right; width: 50%;">
+<ul class="blue-bullet">
+<li>Extensions and scripts updates</li>
+<li>Miscellaneous fixes in interfaces</li>
+<li>Updated translations</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+
+<h1>What was new in 1.1.2</h1>
+<p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>
+
+<div style="float:right; width: 48%;">
+<ul class="blue-bullet">
+<li>TS and DVB demuxing fixes</li>
+<li>Audio filters fixes to solve the "mono" bug</li>
+<li>Fix of the direct3d output module that display nothing on older nVidia and ATI cards, when overlay was activated</li>
+</ul>
+</div>
+
+<div style="float:left; width: 50%;">
+<ul class="blue-bullet">
+<li>Extensions and scripts updates</li>
+<li>Miscellaneous fixes in interfaces</li>
+<li>Updated translations</li>
+<li>Various crashes and errors fixed</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+<h1>What was new in 1.1.1</h1>
+<p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
+this is a release focused on numerous fixes and small improvements:</p>
+
+<div style="float:right; width: 48%;">
+<ul class="blue-bullet">
+<li>Multiple libVLC improvements and fixes</li>
+<li>Windows video output fixes</li>
+<li>DxVA2 decoding on ATI GPU, with Catalyst 10.7</li>
+<li>Various crashes and errors fixed</li>
+</ul>
+</div>
+<div style="float:left; width: 50%;">
+<ul class="blue-bullet">
+<li>Multiple fixes for interfaces</li>
+<li>Various decoders and demuxers fixes</li>
+<li>Updated translations</li>
+</ul>
+</div>
+<div style="clear: both;"></div>
+
+<h1>What's new in all 1.1.x releases?</h1>
+
+<div style="float:left; width: 50%;">
+<h2>Ready for HD</h2>
+<ul class="blue-bullet">
+<li>GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2 </li>
+<li>GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2</li>
+<li>DSP decoding using <a href="http://www.khronos.org/openmax/">OpenMax IL</a>, for compatible embedded devices</li>
+<li>Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs</li>
+<li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8</li>
+</ul>
+<p><b>NB</b>: so far, on Windows <b>for GPU decoding</b>, VideoLAN is recommending <a href="http://www.nvidia.com/">nVidia®</a> GPU,
+ or ATI® GPUs, with the Catalyst 10.7. Intel® GPU support will come when VLC developers get access to some Intel® hardware
+ supporting GPU decoding.</p>
+<br />
+<h2>Extensions</h2>
+New add-ons and script framework so one can personalize its vlc.
+<ul class="blue-bullet">
+<li>Written in lua</li>
+<li>2 main types of scripts:
+<ul class="blue-bullet">
+<li>content add-ons, integrated in the playlist</li>
+<li>functionnalities extensions, like metadata searching on the web, or subtitles look-ups</li>
+</ul>
+</li>
+<li>Very Simple</li>
+</ul>
+<h2>Web improvements</h2>
+<ul class="blue-bullet">
+<li>Support for WebM decoding and encoding</li>
+<li>Improved web plugins</li>
+<li>Better streaming capabilities</li>
+</ul>
+</div>
+
+<div style="float:right; width: 48%;">
+<h2>Better Audio experience</h2>
+<ul class="blue-bullet">
+<li>Integrated playlist in the Qt4 interface</li>
+<li>Multiple views (like album art) in the playlist in the Qt4 interface</li>
+<li>Support for AMR-NB, Mpeg-4 ALS, Vorbis 6.1/7.1, FLAC 6.1/7.1 and WMAS</li>
+<li>CDDB and CD-Text works now on the Windows port when listening to CD-Audio</li>
+<li>Support for DVD-Audio files (.aob)</li>
+<li>Improved meta-data and album-art support</li>
+</ul>
+<h2>Faster, Lighter</h2>
+<ul class="blue-bullet">
+<li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
+<li>First part of the Video Output core rewrite</li>
+<li>Removal or rewrite of dozens of modules, code simplification and tens of thousands of lines of code removed</li>
+<li>Some functionalities that are less used are now moved to extensions</li>
+<li>More assembly optimizatinons, especially SSSE3/SSE4 and ARM Neon</li>
+<li>Fewer threads used</li>
+</ul>
+<h2>Better for developers</h2>
+<ul class="blue-bullet">
+<li>Simplified and improved libVLC, removal of exceptions for better C integration</li>
+<li>New phonon-backend for Qt applications, on all platforms</li>
+<li>New C++ bindings</li>
+<li></li>
+</ul>
+</div>
+
+<div style="clear: both;"></div>
+
+<h1></h1>
+<h2>Complete Changelog</h2>
+<a href="https://code.videolan.org/videolan/vlc/-/raw/master/NEWS">Changelog for 1.1.8</a>
+
+
+<h2>Direct links and press contact</h2>
+If you link to this release, please use the following links.
+<h3>Source</h3>
+<a href="http://get.videolan.org/vlc/1.1.8/vlc-1.1.8.tar.bz2">VLC Source download</a>
+<h3>Win32</h3>
+<a href="http://get.videolan.org/vlc/1.1.8/win32/vlc-1.1.8-win32.exe">VLC Win32 installer</a><br />
+<a href="http://get.videolan.org/vlc/1.1.8/win32/vlc-1.1.8-win32.7z">VLC Win32 7zip (no install)</a><br />
+<a href="http://get.videolan.org/vlc/1.1.8/win32/vlc-1.1.8-win32.zip">VLC Win32 zip (no install)</a><br />
+<h3>MacOSX</h3>
+<br />
+<h3>Press contact</h3>
+<a href="../../videolan/team.2">Contact infos</a>
+<br />
+
+ <h1>Removal of SHOUTcast functionnality</h1>
+
+ <p>VideoLAN is in discussion with SHOUTcast to solve the current SHOUTcast issue. We'll keep you posted as soon as possible. </p>
+
+    </div> <!-- BodyInner -->
+    <div class="clearfix"></div>
+    <div id='footer' class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <a href="../../index.html">
+                        <img src='http://images.videolan.org/images/logoGrey.png' alt='Association VideoLAN' class='center-xs center-sm' />
+                    </a>
+                    <div class="social-box">
+                        <a class="social" href="https://www.facebook.com/vlc.media.player">
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a class="social" href="https://www.twitter.com/videolan">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>VLC media player</div>
+                    <ul>
+                        <li><a href="../download-linux.html">VLC</a></li>
+                        <li><a href="../download-windows.html">VLC for Windows</a></li>
+                        <li><a href="../download-macosx.html">VLC for Mac OS X</a></li>
+                        <li><a href="../download-ubuntu.html">VLC for Ubuntu</a></li>
+                        <li><a href="../download-android.html">VLC for Android</a></li>
+                        <li><a href="../download-ios.html">VLC for iOS</a></li>
+                        <li><a href="../skins.html">Skins</a></li>
+                        <li><a href='https://addons.videolan.org/browse/cat/323/ord/latest/'>Extensions</a></li>
+                        <li><a href="../todo.html">Features</a></li>
+                        <li><a href="../screenshots.html">Screenshots</a></li>
+                        <li><a href="../skineditor.html">VLC Skin Editor</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>All Projects</div>
+                    <ul>
+                        <li><a href="../../vlmc/index.html">VideoLan Movie Creator</a></li>
+                        <li><a href="../../projects/dvblast.html">DVBlast</a></li>
+                        <li><a href="../../developers/x264.html">x264</a></li>
+                        <li><a href="../../developers/x262.html">x262</a></li>
+                        <li><a href="../../developers/x265.html">x265</a></li>
+                        <li><a href="../../projects/multicat.html">multicat</a></li>
+                        <li><a href="../../projects/dav1d.html">dav1d</a></li>
+                        <li><a href="../../projects/vlma.2">VLMa</a></li>
+                        <li><a href="../libvlc.html">libVLC</a></li>
+                        <li><a href="../../libdvdcss/index.html">libdvdcss</a></li>
+                        <li><a href="../../developers/libdvdnav.html">libdvdnav</a></li>
+                        <li><a href="../../developers/libdvdnav.html">libdvdread</a></li>
+                        <li><a href="../../developers/libbluray.html">libbluray</a></li>
+                        <li><a href="../../developers/libdvbpsi.html">libdvbpsi</a></li>
+                        <li><a href="../../developers/libaacs.html">libaacs</a></li>
+                        <li><a href="../../developers/libdvbcsa.html">libdvbcsa</a></li>
+                        <li><a href="../../developers/bitstream.html">biTStream</a></li>
+                        <li><a href="../../developers/unity.html">vlc-unity</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>Community</div>
+                    <ul>
+                        <li><a href='https://wiki.videolan.org/'>Wiki</a></li>
+                        <li><a href='https://forum.videolan.org/'>Forums</a></li>
+                        <li><a href="../../support/lists.php">Mailing-Lists</a></li>
+                        <li><a href="../../support/faq.html">FAQ</a></li>
+                        <li><a href="../../contribute.html#money">Donate money</a></li>
+                        <li><a href="../../contribute.html">Donate time</a></li>
+                        <li><a href="../../goodies.html">Get Goodies</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-2">
+                    <div class='footerHeading'>VideoLAN</div>
+                    <ul>
+                        <li><a href="../../videolan.2">Project and Organization</a></li>
+                        <li><a href="../../videolan/team.2">Team</a></li>
+                        <li><a href="../../legal.html">Legal</a></li>
+                        <li><a href="../../contact.html">Contact us</a></li>
+                        <li><a href="../partners.html">Partners</a></li>
+                        <li><a href="../../videolan/mirrors.html">Mirrors</a></li>
+                        <li><a href="../../press/index.html">Press center</a></li>
+                        <li><a href="../../videolan/events.2">Events</a></li>
+                        <li><a href="../../security.2">Security center</a></li>
+                        <li><a href="../../contribute.html">Get Involved</a></li>
+                        <li><a href="../../news.html">News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div id='translation' class="col-md-12" style="font-size: 9px;">
+                                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style='text-align: center; line-height: 14px; font-size: 9px; color: #999;'>
+                    <p>
+                        <a href='../../legal.html'>Legal</a>
+                        <span dir="ltr" lang="en">
+                            | <a href='../../contact.html'>Report Trademark Abuse</a><br />
+
+                            VideoLAN, VLC, VLC media player and x264 are trademarks internationally registered by the <a href="../../videolan.2">VideoLAN non-profit organization.</a><br />
+                            VideoLAN software is licensed under various open-source licenses: use and distribution are defined by each software license.
+                        </span>
+                    </p>
+                    <p>
+                        <span dir="ltr" lang="en">
+                            Design by <a href="https://www.madebyargon.com">Made By Argon</a>. Some icons are licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC BY-SA 3.0+</a>. <br />
+                            The VLC cone icon was designed by Richard Øiestad. Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
