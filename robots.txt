@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: Yandex
+
+Sitemap: https://vlc-player.github.io/sitemap.xml
+
+Host: https://vlc-player.github.io
